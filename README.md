@@ -57,7 +57,7 @@ Whether you're a **Customer**, **Restaurant Admin**, **Delivery Agent**, or **Su
 ![Menu Page](output/Menu%20Page.jpeg)
 
 ### 🛒 Cart & Checkout  
-![Cart & Checkout](output/Cart%20%26%20Checkout.jpeg)
+![Cart & Checkout]([output/Cart%20%26%20Checkout.jpeg](https://github.com/RIXIYACATHRINE/Food-App/blob/main/Output/Cart%20%26%20Checkout.jpeg))
 
 ### 📦 Order History  
 ![Order History](output/Order%20History.jpeg)
