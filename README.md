@@ -31,6 +31,7 @@ Whether you're a **Customer**, **Restaurant Admin**, **Delivery Agent**, or **Su
 
 ### 🛠️ Role-Based Access  
 - Custom **dashboards and permissions** based on user roles
+  
 
 🧾 Database Schema
 🗂️ Tables:
