@@ -1,0 +1,184 @@
+body {
+    background: linear-gradient(135deg, #ffe2f3 0%, #fff8f0 100%);
+    margin: 0;
+    font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4em 8vw 2em 8vw;
+    background: linear-gradient(120deg, #fff1fb 65%, #ffd6e0 100%);
+    border-radius: 0 0 3em 3em;
+    box-shadow: 0 10px 32px #ff2c9112;
+    gap: 3em;
+}
+.hero-details {
+    flex: 1 1 60%;
+    max-width: 600px;
+}
+.hero-details h1 {
+    font-size: 2.6em;
+    color: #ff2c91;
+    font-weight: 900;
+    margin-bottom: 0.3em;
+    letter-spacing: 1px;
+}
+.hero-details p {
+    font-size: 1.2em;
+    color: #444;
+    font-weight: 500;
+    margin-bottom: 1.8em;
+    letter-spacing: 0.2px;
+}
+.search-bar {
+    display: flex;
+    background: #fff;
+    border-radius: 2em;
+    box-shadow: 0 4px 12px #ff2c9122;
+    overflow: hidden;
+}
+.search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 1em 1.2em;
+    font-size: 1.09em;
+    border-radius: 2em 0 0 2em;
+    background: #fff;
+    font-family: inherit;
+}
+.search-bar button {
+    background: linear-gradient(90deg,#ff2c91 0%, #fa6a90 100%);
+    color: #fff;
+    border: none;
+    padding: 0 2em;
+    font-size: 1.05em;
+    font-weight: 700;
+    border-radius: 0 2em 2em 0;
+    cursor: pointer;
+    transition: background 0.15s;
+    display: flex;
+    align-items: center;
+}
+.search-bar button:hover {
+    background: linear-gradient(90deg,#fa6a90 0%, #ff2c91 100%);
+}
+.hero-img {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+}
+.hero-img img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 2em;
+    box-shadow: 0 8px 30px #ff2c9140;
+    border: 4px solid #ffb1d7;
+    background: #fff1fb;
+}
+.section-title-blue {
+    color: #ff2c91;
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em 0;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+.restaurant-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+    gap: 2.1em;
+    max-width: 1300px;
+    margin: 0 auto 4em auto;
+    padding: 0 4vw;
+}
+.restaurant-card {
+    background: #fff;
+    border-radius: 2em;
+    box-shadow: 0 9px 30px #ff2c9120, 0 2px 8px #0001;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2em 1.2em 1.5em 1.2em;
+    transition: transform 0.18s, box-shadow 0.18s;
+}
+.restaurant-card:hover {
+    transform: translateY(-6px) scale(1.025);
+    box-shadow: 0 16px 44px #ff2c9130, 0 2px 16px #0002;
+}
+.restaurant-image {
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 1.4em;
+    box-shadow: 0 5px 22px #ff2c9130;
+    margin-bottom: 1.2em;
+    background: #ffe4ef;
+    border: 3px solid #ffb1d7;
+}
+.restaurant-info {
+    width: 100%;
+    text-align: center;
+}
+.restaurant-title {
+    font-size: 1.18em;
+    color: #ff2c91;
+    font-weight: 800;
+    margin-bottom: 0.3em;
+    letter-spacing: 0.7px;
+}
+.restaurant-cuisine {
+    color: #fa6a90;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+.restaurant-rating {
+    color: #ff9800;
+    font-weight: 800;
+    font-size: 1.09em;
+    margin-bottom: 0.3em;
+}
+.restaurant-meta {
+    color: #888;
+    font-size: 0.98em;
+    margin-bottom: 1em;
+}
+.add-cart-btn {
+    background: linear-gradient(90deg,#ff2c91 0%, #fa6a90 100%);
+    color: #fff;
+    border: none;
+    border-radius: 1.6em;
+    padding: 0.6em 2.1em;
+    font-size: 1em;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 1px 6px #ff2c9133;
+    margin-top: 0.3em;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.13s, box-shadow 0.13s, transform 0.11s;
+}
+.add-cart-btn:hover {
+    background: linear-gradient(90deg, #fa6a90 0%, #ff2c91 100%);
+    box-shadow: 0 3px 18px #ff2c9140;
+    transform: scale(1.06);
+}
+@media (max-width: 900px) {
+    .hero-section {
+        flex-direction: column-reverse;
+        padding: 2em 2vw 1em 2vw;
+        gap: 1.2em;
+    }
+    .hero-img { margin-bottom: 1em; }
+    .restaurant-list { gap: 1em; }
+}
+@media (max-width: 600px) {
+    .hero-details h1 { font-size: 1.35em; }
+    .section-title-blue { font-size: 1.3em; }
+    .restaurant-list { padding: 0 0.3em; }
+    .restaurant-card { padding: 0.8em 0.5em 1.1em 0.5em; }
+    .restaurant-image { width: 100px; height: 75px; }
+    .hero-img img { width: 140px; height: 140px; }
+}

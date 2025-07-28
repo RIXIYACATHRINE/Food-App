@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+body {
+	background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+	min-height: 100vh;
+	font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+	margin: 0;
+}
+
+.header {
+	background: #fff;
+	box-shadow: 0 4px 16px #ff6a2c44;
+	padding: 1.3em 0 1em 0;
+	text-align: center;
+	letter-spacing: 0.5px;
+}
+
+.header-title {
+	font-size: 2.1em;
+	color: #ff6a2c;
+	font-weight: 900;
+	letter-spacing: 1.5px;
+	margin-bottom: 0.2em;
+}
+
+.header-sub {
+	font-size: 1.13em;
+	color: #555;
+}
+
+.menu-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+	gap: 2.2em;
+	padding: 2.5em 4vw 3em 4vw;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.menu-card {
+	background: #fff;
+	border-radius: 2.2em;
+	box-shadow: 0 10px 32px #ff6a2c33, 0 2px 8px #0001;
+	transition: transform 0.18s, box-shadow 0.18s;
+	padding: 2.2em 1.2em 1.5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.menu-card:hover {
+	transform: translateY(-7px) scale(1.032);
+	box-shadow: 0 17px 36px #ff6a2c44, 0 2px 16px #0002;
+}
+
+.menu-image {
+	width: 130px;
+	height: 130px;
+	object-fit: cover;
+	border-radius: 1.5em;
+	box-shadow: 0 8px 30px #ff6a2c40;
+	background: #fff4e0;
+	margin-bottom: 1.1em;
+	border: 3.5px solid #ffd9b1;
+	transition: box-shadow 0.2s;
+}
+
+.menu-title {
+	font-size: 1.26em;
+	font-weight: 900;
+	color: #ff6a2c;
+	margin-bottom: 0.2em;
+	letter-spacing: 0.5px;
+}
+
+.menu-desc {
+	color: #505050;
+	font-size: 1.05em;
+	margin-bottom: 1em;
+	text-align: center;
+	min-height: 2.1em;
+}
+
+.menu-meta {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.9em;
+	padding: 0 1.3em 0.3em 1.3em;
+	/* added left and right padding and bottom for separation */
+	box-sizing: border-box;
+}
+
+.menu-price {
+	color: #ff6a2c;
+	font-weight: 700;
+	font-size: 1.1em;
+}
+
+.menu-rating {
+	color: #ff9800;
+	font-weight: 700;
+	font-size: 1.11em;
+}
+
+.menu-availability {
+	font-size: 1.04em;
+	font-weight: 600;
+	margin-bottom: 1em;
+	background: #e9f8ef;
+	border-radius: 1em;
+	padding: 0.33em 1em;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	color: #2ecc40; /* green for available */
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+}
+
+.menu-availability[style*="#d10000"] {
+	background: #d0e6d8; /* a bit deeper than pale green */
+	color: #0b3d0b !important; /* very dark green */
+}
+
+.add-cart-btn {
+	background: linear-gradient(90deg, #ff6a2c 0%, #ff3e3e 100%);
+	color: #fff;
+	border: none;
+	border-radius: 1.7em;
+	padding: 0.8em 2.5em;
+	font-size: 1.12em;
+	font-weight: 800;
+	cursor: pointer;
+	box-shadow: 0 1px 6px #ff6a2c33;
+	margin-top: 0.3em;
+	transition: background 0.16s, box-shadow 0.18s, transform 0.13s;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.add-cart-btn:hover {
+	background: linear-gradient(90deg, #ff3e3e 0%, #ff6a2c 100%);
+	box-shadow: 0 3px 18px #ff6a2c40;
+	transform: scale(1.07);
+}
+
+.quantity-selector {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1.1em;
+	gap: 0.7em;
+}
+
+.quantity-btn {
+	background: #ff6a2c;
+	color: #fff;
+	border: none;
+	width: 2.3em;
+	height: 2.3em;
+	border-radius: 50%;
+	font-size: 1.3em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: background 0.16s, transform 0.1s;
+	font-weight: 800;
+}
+
+.quantity-btn:active {
+	background: #ff3e3e;
+	transform: scale(0.93);
+}
+
+.quantity-input {
+	text-align: center;
+	width: 2.7em;
+	font-size: 1.12em;
+	border-radius: 1.5em;
+	border: 2px solid #ffd9b1;
+	background: #fff4e0;
+	font-weight: 800;
+	-moz-appearance: textfield;
+	appearance: textfield;
+}
+
+.quantity-input::-webkit-outer-spin-button, .quantity-input::-webkit-inner-spin-button
+	{
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+@media ( max-width :900px) {
+	.menu-list {
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	}
+}
+
+@media ( max-width :600px) {
+	.header-title {
+		font-size: 1.3em;
+	}
+	.menu-list {
+		gap: 1.6em;
+		padding: 1.2em 0.4em 2em 0.4em;
+	}
+	.menu-card {
+		padding: 1.5em 0.5em 1em 0.5em;
+	}
+	.menu-image {
+		width: 100px;
+		height: 100px;
+	}
+	.menu-meta {
+		padding: 0 0.2em 0.3em 0.2em;
+	}
+}

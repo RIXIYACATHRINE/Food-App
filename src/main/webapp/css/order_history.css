@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body {
+	background: linear-gradient(135deg, #ffe5b4 0%, #fff3e0 100%);
+	min-height: 100vh;
+	font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+	margin: 0;
+}
+
+.order-container {
+	max-width: 900px;
+	margin: 4em auto 0 auto;
+	background: #fff;
+	border-radius: 2.2em;
+	box-shadow: 0 10px 32px #ff6a2c33, 0 2px 8px #0001;
+	padding: 2.2em 1.3em 2.2em 1.3em;
+}
+
+.order-title {
+	font-size: 2em;
+	color: #ff6a2c;
+	font-weight: 900;
+	margin-bottom: 1.3em;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.order-table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0 0.6em;
+	margin: 0 auto 1.5em auto;
+	font-size: 1.1em;
+	background: none;
+}
+
+.order-table th {
+	color: #ff6a2c;
+	font-weight: 900;
+	background: #fff4e4;
+	padding: 0.8em 0.7em;
+	border-radius: 1.1em;
+	letter-spacing: 0.7px;
+}
+
+.order-table td {
+	text-align: center;
+	color: #444;
+	background: #ffe8cc;
+	padding: 0.8em 0.7em;
+	border-radius: 1.1em;
+	font-weight: 700;
+}
+
+.order-table tr td:first-child, .order-table tr th:first-child {
+	text-align: left;
+}
+
+.order-table .fa-inr {
+	color: #ff6a2c;
+}
+
+@media ( max-width :900px) {
+	.order-container {
+		padding: 1em 0.2em;
+	}
+	.order-title {
+		font-size: 1.2em;
+	}
+	.order-table th, .order-table td {
+		font-size: 0.96em;
+		padding: 0.5em 0.3em;
+	}
+}
+
+@media ( max-width :600px) {
+	.order-container {
+		padding: 0.6em 0.1em;
+	}
+	.order-title {
+		font-size: 1em;
+	}
+}
