@@ -32,6 +32,18 @@ Whether you're a **Customer**, **Restaurant Admin**, **Delivery Agent**, or **Su
 ### 🛠️ Role-Based Access  
 - Custom **dashboards and permissions** based on user roles
 
+🧾 Database Schema
+🗂️ Tables:
+👤 user – Stores user details and their roles
+
+🏪 restaurant – Contains restaurant details and addresses
+
+🍽️ menu – Holds food items listed by each restaurant
+
+🧾 order – Tracks orders placed by users
+
+📦 orderitem – Stores individual items within an order
+
 
 ## 🛠️ Technologies Used
 
@@ -43,23 +55,5 @@ Whether you're a **Customer**, **Restaurant Admin**, **Delivery Agent**, or **Su
 | 🌐 Server     | Apache Tomcat 10                  |
 | ☕ ORM/DAO    | Custom Java DAO Implementation    |
 
-
-## 📸 Screenshots  
-> Click on the images to view them in full size.
-
-### 🏠 Home Page  
-![Home Page](output/Home%20Page.jpeg)
-
-### 🏪 Restaurant Listing  
-![Restaurant Listing](output/Restaurant%20Listing.jpeg)
-
-### 🍽️ Menu Page  
-![Menu Page](output/Menu%20Page.jpeg)
-
-### 🛒 Cart & Checkout  
-![Cart & Checkout]([output/Cart%20%26%20Checkout.jpeg])
-
-### 📦 Order History  
-![Order History](output/Order%20History.jpeg)
 
 
