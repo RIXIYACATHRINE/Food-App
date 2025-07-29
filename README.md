@@ -47,7 +47,8 @@ Whether you're a **Customer**, **Restaurant Admin**, **Delivery Agent**, or **Su
 
 ---
 
-## 📸 Screenshots
+<details>
+  <summary>📸 <strong>Screenshots (Click to Expand)</strong></summary>
 
 ### 🏠 Home Page  
 ![Home Page](assets/Home.jpeg)
@@ -63,6 +64,9 @@ Whether you're a **Customer**, **Restaurant Admin**, **Delivery Agent**, or **Su
 
 ### 📦 Order History  
 ![Order History](assets/OrderHistory.jpeg)
+
+</details>
+
 
 
 # 🍽️ Food App - BiteBuddy
