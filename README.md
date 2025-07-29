@@ -75,7 +75,77 @@ An online food ordering web application where users can browse restaurants, expl
 git clone https://github.com/RIXIYACATHRINE/Food-App.git
 cd Food-App
 
+### 2. Set up the Database
+Import the SQL file: database/food_delivery_app.sql into your MySQL server.
 
+Update DB credentials in DBConnection.java as needed.
+
+
+### 3. Run the App
+Import the project into Eclipse as a Dynamic Web Project or Maven project.
+
+Deploy it on Apache Tomcat 10+.
+
+Open in browser:
+
+arduino
+Copy
+Edit
+http://localhost:8080/Food-App
+
+📁 Project Structure
+/src
+  /com.food.delivery.app
+    /model       -> Java Beans (User, Order, Menu, etc.)
+    /dao         -> DAO Interfaces
+    /daoimpl     -> DAO Implementations
+    /servlet     -> Java Servlets (Login, Register, Cart, etc.)
+    /util        -> DB Utility (DBConnection.java)
+
+ /webapp
+   /css         -> Stylesheets
+   /images      -> App Images
+   /output      -> Screenshots for README
+   *.jsp        -> JSP Pages (home, login, menu, cart, etc.)
+
+👩‍💻 Contributors
+Rixiya Cathrine A
+📧 Cathrinerixiya101@gmail.com
+🔗 LinkedIn
+
+❤️ Acknowledgements
+Java Servlet & JSP Documentation
+
+Apache Tomcat
+
+MySQL
+
+Font Awesome Icons
+
+💙 ChatGPT by OpenAI
+
+🤝 License
+This project is licensed under the MIT License.
+
+📬 Feedback & Support
+Got issues or suggestions?
+📌 Open an Issue
+
+Eat Good, Feel Good! 🍕🍟🍔🍜
+
+yaml
+Copy
+Edit
+
+---
+
+### ✅ Next Step:
+After pasting it into your `README.md`, run:
+
+```bash
+git add README.md
+git commit -m "Added final README with project details and screenshots"
+git push origin main
 
 
 
