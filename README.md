@@ -142,14 +142,6 @@ Edit
 
 ---
 
-✅ **Next Step**: After adding this to your `README.md`, run the following commands:
-
-```bash
-git add README.md
-git commit -m "Added final README with project details and screenshots"
-git push origin main
-Let me know if you want the same in PDF format or want to embed GIFs or screen recordings. 💙
-
 
 
 
