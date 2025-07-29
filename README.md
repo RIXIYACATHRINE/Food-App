@@ -5,6 +5,7 @@ Craving something tasty? Order from the best restaurants near you and get it del
 
 Whether you're a **Customer**, **Restaurant Admin**, **Delivery Agent**, or **SuperAdmin** – BiteBuddy serves everyone with ease and flavor! 😋
 
+---
 
 ## 🌟 Features
 
@@ -31,9 +32,10 @@ Whether you're a **Customer**, **Restaurant Admin**, **Delivery Agent**, or **Su
 
 ### 🛠️ Role-Based Access  
 - Custom **dashboards and permissions** based on user roles
+
+---
+
 ## 🛠️ Technologies Used
-
-
 
 | Layer        | Technology                        |
 |--------------|-----------------------------------|
@@ -43,8 +45,25 @@ Whether you're a **Customer**, **Restaurant Admin**, **Delivery Agent**, or **Su
 | 🌐 Server     | Apache Tomcat 10                  |
 | ☕ ORM/DAO    | Custom Java DAO Implementation    |
 
+---
+
+## 🗃️ Database Schema
+
+### 🧾 Tables
+- `user`
+- `restaurant`
+- `menu`
+- `order`
+- `orderitem`
+
+### 🧩 ENUM
+```sql
+role ENUM('Customer', 'RestaurantAdmin', 'DeliveryAgent', 'SuperAdmin');
+
+-----
 
 ## 📸 Screenshots
+<details> <summary>Click to expand!</summary>
 
 ### 🏠 Home Page  
 ![Home Page](assets/Home.jpeg)
