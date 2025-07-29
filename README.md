@@ -62,6 +62,20 @@ Whether you're a **Customer**, **Restaurant Admin**, **Delivery Agent**, or **Su
 ![Order History](assets/OrderHistory.jpeg)
 
 
+# 🍽️ Food App - BiteBuddy
+
+An online food ordering web application where users can browse restaurants, explore menus, place orders, and manage their cart and order history.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/RIXIYACATHRINE/Food-App.git
+cd Food-App
+
+
 
 
 
