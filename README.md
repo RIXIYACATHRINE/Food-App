@@ -44,5 +44,24 @@ Whether you're a **Customer**, **Restaurant Admin**, **Delivery Agent**, or **Su
 | ☕ ORM/DAO    | Custom Java DAO Implementation    |
 
 
+## 📸 Screenshots
+
+### 🏠 Home Page  
+![Home Page](assets/Home.jpeg)
+
+### 🍽️ Restaurant Listing  
+![Restaurant Listing](assets/Restaurant.jpeg)
+
+### 🍔 Menu Page  
+![Menu Page](assets/Menu.jpeg)
+
+### 🛒 Cart & Checkout  
+![Cart & Checkout](assets/Checkout.jpeg)
+
+### 📦 Order History  
+![Order History](assets/OrderHistory.jpeg)
+
+
+
 
 
