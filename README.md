@@ -60,7 +60,7 @@ Whether you're a **Customer**, **Restaurant Admin**, **Delivery Agent**, or **Su
 ```sql
 role ENUM('Customer', 'RestaurantAdmin', 'DeliveryAgent', 'SuperAdmin');
 
------
+---
 
 ## 📸 Screenshots
 <details> <summary>Click to expand!</summary>
