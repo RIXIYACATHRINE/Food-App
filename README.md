@@ -48,7 +48,7 @@ Whether you're a **Customer**, **Restaurant Admin**, **Delivery Agent**, or **Su
 ---
 
 <details>
-  <summary>📸 <strong>Screenshots (Click to Expand)</strong></summary>
+  
 
 ### 🏠 Home Page  
 ![Home Page](assets/Home.jpeg)
